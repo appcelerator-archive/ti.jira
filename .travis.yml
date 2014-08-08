@@ -1,13 +1,13 @@
 language: objective-c
 env:
- global:
-    - "MODULE_NAME=ti.jira" 
+global:
+    - "MODULE_NAME=ti.$module"
 before_install:
     - MODULE_ROOT=$PWD
 install:
     - cd $MODULE_ROOT
     - curl -o install.sh https://raw.githubusercontent.com/appcelerator-modules/ci/master/travis/install.sh
-    - source install.sh -s 2.1.3.GA
+    - source install.sh -s 1.1.1.GA
 script: 
     - curl -o script.sh https://raw.githubusercontent.com/appcelerator-modules/ci/master/travis/script.sh
     - source script.sh
