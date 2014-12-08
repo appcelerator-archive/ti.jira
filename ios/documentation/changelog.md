@@ -1,5 +1,7 @@
 # Change Log
 <pre>
+v1.3.0  [TIMOB-18092] Updated to build for 64bit
+
 v1.2.2  [MOD-941] Building with 2.1.3.GA and open sourcing
 
 v1.2.1	Fixed "Crash the App" button to actually crash the app again [MOD-624]
